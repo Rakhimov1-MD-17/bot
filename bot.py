@@ -20,7 +20,7 @@ async def cont(ctx: commands.context, *, args):
         model="text-davinci-003",
         prompt=result,
         temperature=0.3,
-        max_tokens=120,
+        max_tokens=1000,
         top_p=1.0,
         frequency_penalty=0.0,
         presence_penalty=0.0
